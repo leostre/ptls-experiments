@@ -1,0 +1,6 @@
+[2025-01-28 20:52:27,120][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp4hc4g5fg
+[2025-01-28 20:52:27,121][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp4hc4g5fg/_remote_module_non_scriptable.py
+[2025-01-28 20:52:27,516][numexpr.utils][INFO] - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2025-01-28 20:52:27,516][numexpr.utils][INFO] - NumExpr defaulting to 8 threads.
+[2025-01-28 21:21:25,809][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp_6m0br3i
+[2025-01-28 21:21:25,810][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp_6m0br3i/_remote_module_non_scriptable.py

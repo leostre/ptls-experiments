@@ -1,0 +1,132 @@
+[2024-10-15 17:45:23,412][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 173487 records
+[2024-10-15 17:45:40,205][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 96376 records
+CoLESModule(
+  (_loss): ContrastiveLoss()
+  (_seq_encoder): RnnSeqEncoder(
+    (trx_encoder): TrxEncoder(
+      (embeddings): ModuleDict(
+        (currency): NoisyEmbedding(
+          13, 2, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (operation_kind): NoisyEmbedding(
+          9, 2, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (operation_type): NoisyEmbedding(
+          24, 4, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (operation_type_group): NoisyEmbedding(
+          6, 32, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ecommerce_flag): NoisyEmbedding(
+          5, 1, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (payment_system): NoisyEmbedding(
+          9, 4, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (income_flag): NoisyEmbedding(
+          5, 1, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (mcc): NoisyEmbedding(
+          110, 32, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (mcc_category): NoisyEmbedding(
+          30, 16, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (day_of_week): NoisyEmbedding(
+          9, 2, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (hour): NoisyEmbedding(
+          25, 4, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (weekofyear): NoisyEmbedding(
+          55, 4, padding_idx=0
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (custom_embeddings): ModuleDict(
+        (amnt): IdentityScaler()
+        (hour_diff): LogScaler()
+      )
+      (custom_embedding_batch_norm): RBatchNorm(
+        (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (seq_encoder): RnnEncoder(
+      (rnn): GRU(106, 1024, batch_first=True)
+      (reducer): LastStepEncoder()
+    )
+  )
+  (_validation_metric): BatchRecallTopK()
+  (_head): Head(
+    (model): Sequential(
+      (0): Linear(in_features=1024, out_features=512, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=512, out_features=512, bias=True)
+      (3): ReLU()
+      (4): Sequential(
+        (0): Linear(in_features=512, out_features=1, bias=True)
+        (1): Sigmoid()
+        (2): Flatten(start_dim=0, end_dim=-1)
+      )
+    )
+  )
+)
+[2024-10-15 17:47:22,197][FedCoreAPI][INFO] - Initialising Industrial Repository
+[2024-10-15 17:47:22,485][FedCoreAPI][INFO] - Initialising solver
+[2024-10-15 17:47:22,485][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 27815.30078125
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 15758.5205078125, orthogonal_loss: 23457.126953, hoer_loss: 0.886357, metric_loss: 15758.520508
+==============Truncate rank for each weight matrix=================
+After rank pruning left only 100.0 % of currency layer params
+After rank pruning left only 100.0 % of operation_kind layer params
+After rank pruning left only 100.0 % of operation_type layer params
+After rank pruning left only 100.0 % of operation_type_group layer params
+After rank pruning left only 100.0 % of ecommerce_flag layer params
+After rank pruning left only 100.0 % of payment_system layer params
+After rank pruning left only 100.0 % of income_flag layer params
+After rank pruning left only 100.0 % of mcc layer params
+After rank pruning left only 100.0 % of mcc_category layer params
+After rank pruning left only 100.0 % of day_of_week layer params
+After rank pruning left only 100.0 % of hour layer params
+After rank pruning left only 100.0 % of weekofyear layer params
+After rank pruning left only 75.0 % of 0 layer params
+After rank pruning left only 62.5 % of 2 layer params
+After rank pruning left only 100.0 % of 0 layer params
+==============Finetune truncated model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 180852.21875
+==============After low rank truncation=================
+Params: 4.80 M => 4.40 M
+MACs: 3.80 G => 3.80 G
+==============Prepare original model for pruning=================
+==============Initialisation of magnitude_pruner pruning agent=================
+==============Pruning importance - MagnitudeImportance =================
+==============Pruning ratio -  0.75 =================
+==============Pruning importance norm -  1 =================
+==============Finetune pruned model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 9046.734375
+==============After pruning=================
+Params: 4.80 M => 4.80 M
+MACs: 6.93 G => 6.93 G
+tensor([[-0.3828,  0.0168,  0.3462,  ...,  0.0009, -0.0770,  0.2083],
+        [-0.5663,  0.0395,  0.3762,  ..., -0.0169, -0.0418,  0.2070],
+        [-0.3555,  0.0545,  0.1622,  ..., -0.0007,  0.0105,  0.2498],
+        ...,
+        [-0.5645, -0.0374,  0.1862,  ..., -0.0175, -0.0355,  0.2021],
+        [-0.5711, -0.0663,  0.2879,  ..., -0.0811, -0.1191,  0.2653],
+        [-0.5053, -0.1393,  0.3058,  ..., -0.0835, -0.1155,  0.3027]],
+       device='cuda:0', grad_fn=<IndexBackward0>)

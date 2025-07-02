@@ -1,0 +1,29 @@
+[
+  {
+    "fold_id": 0,
+    "model_name": "nn",
+    "feature_name": "mles_finetuning",
+    "scores_test": {
+      "test/auroc": 0.49721336364746094,
+      "test/accuracy": 0.9428176879882812
+    }
+  },
+  {
+    "fold_id": 1,
+    "model_name": "nn",
+    "feature_name": "mles_finetuning",
+    "scores_test": {
+      "test/auroc": 0.49425333738327026,
+      "test/accuracy": 0.9276894927024841
+    }
+  },
+  {
+    "fold_id": 2,
+    "model_name": "nn",
+    "feature_name": "mles_finetuning",
+    "scores_test": {
+      "test/auroc": 0.5058361291885376,
+      "test/accuracy": 0.0985100045800209
+    }
+  }
+]

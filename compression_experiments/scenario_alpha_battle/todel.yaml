@@ -1,0 +1,35 @@
+compression_task: composite_compression
+need_pretrain: false
+common:
+  save_each: -1
+model_params:
+  pruning_model:
+    epochs: 5
+    pruning_iterations: 5
+    learning_rate: 0.001
+    importance: MagnitudeImportance
+    pruner_name: magnitude_pruner
+    importance_norm: 1
+    pruning_ratio: 0.75
+    finetune_params:
+      epochs: 10
+      custom_loss: null
+  low_rank_model:
+    epochs: 20
+    learning_rate: 0.001
+    hoyer_loss: 0.2
+    energy_thresholds:
+    - 0.9
+    orthogonal_loss: 5
+    decomposing_mode: channel
+    spectrum_pruning_strategy: energy
+    finetune_params:
+      epochs: 10
+      custom_loss: null
+  training_model:
+    epochs: 10
+initial_assumption:
+- training_model
+- pruning_model
+- low_rank_model
+- pruning_model

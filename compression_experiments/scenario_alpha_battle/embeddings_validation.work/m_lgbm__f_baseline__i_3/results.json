@@ -1,0 +1,27 @@
+[
+  {
+    "fold_id": 3,
+    "model_name": "lgbm",
+    "feature_name": "baseline",
+    "scores_valid": {
+      "cnt_samples": 173487,
+      "cnt_features": 1819,
+      "auroc": 0.7791411533140982,
+      "auroc_score_time": 1,
+      "feature_transform_time": 4
+    },
+    "scores_test": {
+      "cnt_samples": 96376,
+      "cnt_features": 1819,
+      "auroc": 0.7816119410878758,
+      "auroc_score_time": 0,
+      "feature_transform_time": 1
+    },
+    "process_info": {
+      "feature_fit_info": "",
+      "feature_load_time": 7,
+      "train_fit_transform_time": 5,
+      "train_time": 179
+    }
+  }
+]

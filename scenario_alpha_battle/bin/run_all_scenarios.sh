@@ -13,7 +13,7 @@ echo "==== Device cuda:${CUDA_VISIBLE_DEVICES} will be used"
 echo ""
 echo "==== Main track"
 sh bin/scenario_baselines_unsupervised.sh
-#sh bin/scenario_baselines_supervised.sh
+# sh bin/scenario_baselines_supervised.sh
 
 
 #echo ""

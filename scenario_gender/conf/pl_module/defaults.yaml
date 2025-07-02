@@ -2,9 +2,11 @@ _target_: ptls.frames.supervised.SequenceToTarget
 metric_list:
   auroc:
     _target_: torchmetrics.AUROC
+    task: binary
     num_classes: 2
   accuracy:
     _target_: torchmetrics.Accuracy
+    task: binary
 head:
   _target_: ptls.nn.Head
   use_batch_norm: true

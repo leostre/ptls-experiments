@@ -1,0 +1,38 @@
+
+FC TARGET
+
+[2024-11-01 17:59:05,929][luigi-interface][INFO] - Loaded []
+[2024-11-01 17:59:05,940][__main__][INFO] - ==== Fold [0/5] fit-test start ====
+[2024-11-01 17:59:06,409][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 3600 records
+[2024-11-01 17:59:07,051][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 900 records
+[2024-11-01 17:59:07,150][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 500 records
+[2024-11-01 17:59:07,767][FedCoreAPI][INFO] - Initialising FedCore Repository
+[2024-11-01 17:59:07,957][FedCoreAPI][INFO] - Initialising solver
+[2024-11-01 17:59:07,958][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to BCELoss(
+  (loss): BCELoss()
+)
+TYPE pass
+BATCH (<ptls.data_load.padded_batch.PaddedBatch object at 0x7f825a6ff1c0>, tensor([0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1,
+        0, 1, 0, 0, 0, 1, 1, 0]))
+Epoch: 1, Average loss 0.654396653175354
+TYPE pass
+
+FC TARGET
+
+[2024-11-01 18:00:23,935][luigi-interface][INFO] - Loaded []
+[2024-11-01 18:00:23,946][__main__][INFO] - ==== Fold [0/5] fit-test start ====
+[2024-11-01 18:00:24,426][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 3600 records
+[2024-11-01 18:00:25,059][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 900 records
+[2024-11-01 18:00:25,161][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 500 records
+[2024-11-01 18:00:25,771][FedCoreAPI][INFO] - Initialising FedCore Repository
+[2024-11-01 18:00:25,960][FedCoreAPI][INFO] - Initialising solver
+[2024-11-01 18:00:25,961][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to BCELoss(
+  (loss): BCELoss()
+)
+TYPE pass
+BATCH (<ptls.data_load.padded_batch.PaddedBatch object at 0x7f6fb7f023d0>, tensor([0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1,
+        0, 1, 0, 0, 0, 1, 1, 0]))
+Epoch: 1, Average loss 0.654396653175354
+TYPE pass

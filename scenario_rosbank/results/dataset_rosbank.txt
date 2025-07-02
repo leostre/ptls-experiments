@@ -87,11 +87,11 @@ trx_count
 [295, 332)   120    0.011745
 [332, 785)   105    0.010277
 trx_to_features        : Feature collection in progress ...
-trx_to_features        : Feature names: ['cl_id', 'amount', 'event_time', 'mcc', 'channel_type', 'currency', 'trx_category', 'trx_count']
+trx_to_features        : Feature names: ['cl_id', 'event_time', 'amount', 'mcc', 'channel_type', 'currency', 'trx_category', 'trx_count']
 trx_to_features        : Prepared features for 10217 clients
 update_with_target     : Target updated for 10217 clients
 split_dataset          : Train size: 9717 clients
 split_dataset          : Test size: 500 clients
-save_features          : Saved to: "ptls-experiments/scenario_rosbank/data/train_trx.parquet"
-save_features          : Saved to: "ptls-experiments/scenario_rosbank/data/test_trx.parquet"
-run                    : Data collected in 117 sec (0:01:57.535014)
+save_features          : Saved to: "/ptls-experiments/scenario_rosbank/data/train_trx.parquet"
+save_features          : Saved to: "/ptls-experiments/scenario_rosbank/data/test_trx.parquet"
+run                    : Data collected in 46 sec (0:00:46.393082)

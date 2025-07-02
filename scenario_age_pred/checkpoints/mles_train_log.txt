@@ -1,0 +1,23 @@
+2025-01-14 23:15:21,361 - Created a temporary directory at /tmp/tmpzto3uje7
+2025-01-14 23:15:21,361 - Writing /tmp/tmpzto3uje7/_remote_module_non_scriptable.py
+[2025-01-14 23:15:21,636][lightning_fabric.utilities.seed][INFO] - Global seed set to 42
+[2025-01-14 23:15:21,960][luigi-interface][INFO] - Loaded []
+[2025-01-14 23:15:21,971][__main__][INFO] - ==== Fold [0/5] fit-test start ====
+2025-01-14 23:16:13,707 - Created a temporary directory at /tmp/tmpe955qtnj
+2025-01-14 23:16:13,708 - Writing /tmp/tmpe955qtnj/_remote_module_non_scriptable.py
+[2025-01-14 23:16:13,982][lightning_fabric.utilities.seed][INFO] - Global seed set to 42
+[2025-01-14 23:16:14,266][luigi-interface][INFO] - Loaded []
+[2025-01-14 23:16:14,276][__main__][INFO] - ==== Fold [0/5] fit-test start ====
+2025-01-14 23:19:41,780 - Created a temporary directory at /tmp/tmphcgxpxaz
+2025-01-14 23:19:41,780 - Writing /tmp/tmphcgxpxaz/_remote_module_non_scriptable.py
+[2025-01-14 23:19:42,060][lightning_fabric.utilities.seed][INFO] - Global seed set to 42
+2025-01-14 23:20:53,981 - Created a temporary directory at /tmp/tmpt2ij04u7
+2025-01-14 23:20:53,981 - Writing /tmp/tmpt2ij04u7/_remote_module_non_scriptable.py
+[2025-01-14 23:20:54,260][lightning_fabric.utilities.seed][INFO] - Global seed set to 42
+2025-01-14 23:22:40,276 - Created a temporary directory at /tmp/tmpzfho7z9b
+2025-01-14 23:22:40,276 - Writing /tmp/tmpzfho7z9b/_remote_module_non_scriptable.py
+2025-01-14 23:25:11,252 - Created a temporary directory at /tmp/tmpzk82ery4
+2025-01-14 23:25:11,252 - Writing /tmp/tmpzk82ery4/_remote_module_non_scriptable.py
+[2025-01-19 21:23:25,594][lightning_fabric.utilities.seed][INFO] - Seed set to 42
+[2025-01-19 21:23:25,690][luigi-interface][INFO] - Loaded []
+[2025-01-19 21:23:25,711][__main__][INFO] - ==== Fold [0/5] fit-test start ====

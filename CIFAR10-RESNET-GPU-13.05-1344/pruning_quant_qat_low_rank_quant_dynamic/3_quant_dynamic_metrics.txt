@@ -1,0 +1,11 @@
+{'quality_comparison':                  0               
+mode      original fedcore change
+metric                           
+accuracy     0.402   0.402    0.0
+f1           0.332   0.332    0.0
+precision    0.445   0.445    0.0, 'computational_comparison':                     0                           1                 
+mode         original    fedcore change  original   fedcore change
+metric                                                            
+latency      2.327976   2.473856   6.27  0.182665  0.148282 -18.82
+model_size  43.338000  43.338000   0.00  0.000000  0.000000    NaN
+throughput  13.969258  12.986640  -7.03  0.955134  0.855049 -10.48}

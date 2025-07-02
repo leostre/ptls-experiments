@@ -1,0 +1,9 @@
+
+FC TRAIN
+[2024-11-02 11:24:24,917][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 7497 records
+[2024-11-02 11:24:25,186][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 453 records
+[2024-11-02 11:24:26,217][FedCoreAPI][INFO] - Initialising FedCore Repository
+[2024-11-02 11:24:26,686][FedCoreAPI][INFO] - Initialising solver
+[2024-11-02 11:24:26,686][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 387.3138139369124

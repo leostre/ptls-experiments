@@ -1,3 +1,7 @@
+python -m ptls.pl_train_module \
+      --config-dir conf --config-name tabformer_params >> TMP.txt
+
+
 ulimit -n 32000
 export device=1
 
@@ -27,7 +31,7 @@ do
         trainer.accumulate_grad_batches=${accumulate_grad_batches} \
         trainer.max_steps=${max_steps} \
         model_path="models/tabformer__$logger_name.p" \
-      --config-dir conf --config-name tabformer_params
+      --config-dir conf --config-name tabformer_params 
 
     python -m ptls.pl_inference \
         +inference.gpus=[${device}] \

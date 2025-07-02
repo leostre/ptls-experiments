@@ -1,0 +1,7 @@
+#0 latency: 0.74718 throughput: 136054.0 model_size: 1.085
+#1 latency: 0.74536 throughput: 136500.0 model_size: 1.091
+#2 latency: 0.74614 throughput: 127453.0 model_size: 1.091
+#3 latency: 0.74915 throughput: 136240.0 model_size: 1.091
+#4 latency: 0.74524 throughput: 136761.0 model_size: 1.085
+#5 latency: 0.74557 throughput: 127943.0 model_size: 1.085
+#6 latency: 0.75394 throughput: 136277.0 model_size: 1.091

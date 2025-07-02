@@ -1,0 +1,14 @@
+#0 lgbm metric: auroc value: 0.5
+#0 lgbm metric: accuracy value: 0.97375
+#1 lgbm metric: auroc value: 0.5
+#1 lgbm metric: accuracy value: 0.975
+#2 lgbm metric: auroc value: 0.5
+#2 lgbm metric: accuracy value: 0.9775
+#3 lgbm metric: auroc value: 0.5
+#3 lgbm metric: accuracy value: 0.9758333333333333
+#4 lgbm metric: auroc value: 0.5
+#4 lgbm metric: accuracy value: 0.975625
+#5 lgbm metric: auroc value: 0.5
+#5 lgbm metric: accuracy value: 0.9766666666666667
+#6 lgbm metric: auroc value: 0.5
+#6 lgbm metric: accuracy value: 0.9775

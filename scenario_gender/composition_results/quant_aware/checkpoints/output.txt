@@ -1,0 +1,145 @@
+[2024-10-31 18:23:11,437][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 13117 records
+[2024-10-31 18:23:11,476][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 749 records
+[2024-10-31 18:23:13,382][FedCoreAPI][INFO] - Initialising FedCore Repository
+[2024-10-31 18:23:13,574][FedCoreAPI][INFO] - Initialising solver
+[2024-10-31 18:23:13,574][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 938.1819693556109
+Epoch: 2, Average loss 257.6781318442335
+Epoch: 3, Average loss 232.2712499377797
+Epoch: 4, Average loss 217.28143651277117
+Epoch: 5, Average loss 208.69456496747952
+Epoch: 6, Average loss 205.19810389546515
+Epoch: 7, Average loss 200.23621353593845
+Epoch: 8, Average loss 196.7801147016507
+Epoch: 9, Average loss 197.18310406138596
+Epoch: 10, Average loss 195.13603328964086
+Epoch: 11, Average loss 192.8910695048212
+Epoch: 12, Average loss 194.23993645825433
+Epoch: 13, Average loss 194.83007227332845
+Epoch: 14, Average loss 191.5054263513065
+Epoch: 15, Average loss 190.0425894283554
+Epoch: 16, Average loss 189.79381761273135
+Epoch: 17, Average loss 189.7746431665513
+Epoch: 18, Average loss 190.92077273766972
+Epoch: 19, Average loss 191.3942262964341
+Epoch: 20, Average loss 189.55209009855696
+Epoch: 21, Average loss 187.5191553356578
+Epoch: 22, Average loss 187.97442241779808
+Epoch: 23, Average loss 187.10448211373634
+Epoch: 24, Average loss 186.91801126720836
+Epoch: 25, Average loss 188.43012148662677
+Epoch: 26, Average loss 186.93312443112865
+Epoch: 27, Average loss 186.77951131283658
+Epoch: 28, Average loss 186.2590499433499
+Epoch: 29, Average loss 185.7877557254532
+Epoch: 30, Average loss 184.6684647347163
+Epoch: 31, Average loss 184.63057338381276
+Epoch: 32, Average loss 184.6947717018498
+Epoch: 33, Average loss 188.58484731137173
+Epoch: 34, Average loss 187.08667066259292
+Epoch: 35, Average loss 185.4389050678142
+Epoch: 36, Average loss 184.53181776028234
+Epoch: 37, Average loss 184.6062222823356
+Epoch: 38, Average loss 183.90961300748066
+Epoch: 39, Average loss 183.50415513121965
+Epoch: 40, Average loss 183.10452314950888
+Epoch: 41, Average loss 183.3195003028055
+Epoch: 42, Average loss 182.83897436938238
+Epoch: 43, Average loss 185.21386955779732
+Epoch: 44, Average loss 183.0958145289745
+Epoch: 45, Average loss 182.6917426840773
+Epoch: 46, Average loss 181.71893843863774
+Epoch: 47, Average loss 182.4034555675914
+Epoch: 48, Average loss 181.5895370927829
+Epoch: 49, Average loss 181.70294441297216
+Epoch: 50, Average loss 181.37639040159948
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 183.54172493647604, orthogonal_loss: 127388.765625, hoer_loss: 1.138080, metric_loss: 80.013092
+Epoch: 2, Average loss 180.65271196087588, orthogonal_loss: 127391.460938, hoer_loss: 1.135425, metric_loss: 82.719490
+Epoch: 3, Average loss 180.42856546050137, orthogonal_loss: 127385.390625, hoer_loss: 1.132616, metric_loss: 76.647995
+Epoch: 4, Average loss 180.13326248613376, orthogonal_loss: 127386.570312, hoer_loss: 1.129651, metric_loss: 77.829231
+Epoch: 5, Average loss 180.47736914181016, orthogonal_loss: 127392.265625, hoer_loss: 1.126528, metric_loss: 83.523300
+Epoch: 6, Average loss 179.74820435162886, orthogonal_loss: 127388.687500, hoer_loss: 1.123249, metric_loss: 79.943207
+Epoch: 7, Average loss 179.97277335750246, orthogonal_loss: 127396.078125, hoer_loss: 1.119815, metric_loss: 87.344414
+Epoch: 8, Average loss 179.4419374928891, orthogonal_loss: 127387.304688, hoer_loss: 1.116228, metric_loss: 78.577332
+Epoch: 9, Average loss 178.44906912498104, orthogonal_loss: 127382.820312, hoer_loss: 1.112492, metric_loss: 74.093124
+Epoch: 10, Average loss 178.36062251711354, orthogonal_loss: 127390.796875, hoer_loss: 1.108611, metric_loss: 82.072708
+Epoch: 11, Average loss 178.12559316690687, orthogonal_loss: 127384.609375, hoer_loss: 1.104588, metric_loss: 75.888031
+Epoch: 12, Average loss 177.9721317476439, orthogonal_loss: 127386.656250, hoer_loss: 1.100430, metric_loss: 77.936302
+Epoch: 13, Average loss 177.5246230930958, orthogonal_loss: 127394.375000, hoer_loss: 1.096141, metric_loss: 85.664536
+Epoch: 14, Average loss 177.35486232424245, orthogonal_loss: 127386.367188, hoer_loss: 1.091727, metric_loss: 77.652977
+Epoch: 15, Average loss 177.1155856234356, orthogonal_loss: 127384.492188, hoer_loss: 1.087193, metric_loss: 75.789230
+Epoch: 16, Average loss 176.88534219982554, orthogonal_loss: 127396.656250, hoer_loss: 1.082545, metric_loss: 87.955124
+Epoch: 17, Average loss 176.97955003756923, orthogonal_loss: 127390.109375, hoer_loss: 1.077789, metric_loss: 81.416756
+Epoch: 18, Average loss 176.64743145692697, orthogonal_loss: 127384.484375, hoer_loss: 1.072930, metric_loss: 75.800507
+Epoch: 19, Average loss 176.70240117045282, orthogonal_loss: 127384.742188, hoer_loss: 1.067975, metric_loss: 76.053818
+Epoch: 20, Average loss 175.62415410014032, orthogonal_loss: 127395.585938, hoer_loss: 1.062928, metric_loss: 86.904556
+==============Truncate rank for each weight matrix=================
+After rank pruning left only 100.0 % of mcc_code layer params
+After rank pruning left only 100.0 % of tr_type layer params
+==============Finetune truncated model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 4503.949055792059
+Epoch: 2, Average loss 309.7777290714597
+Epoch: 3, Average loss 257.880717231232
+Epoch: 4, Average loss 238.8238535760676
+Epoch: 5, Average loss 226.6920710443293
+Epoch: 6, Average loss 220.12644973310452
+Epoch: 7, Average loss 216.7462824849249
+Epoch: 8, Average loss 210.74101553611385
+Epoch: 9, Average loss 206.354314859631
+Epoch: 10, Average loss 204.35559726455836
+Epoch: 11, Average loss 201.6387375026073
+Epoch: 12, Average loss 201.93468230904884
+Epoch: 13, Average loss 199.13766086911693
+Epoch: 14, Average loss 197.22931397076948
+Epoch: 15, Average loss 198.30732001147223
+Epoch: 16, Average loss 197.35864983716058
+Epoch: 17, Average loss 196.85110621776397
+Epoch: 18, Average loss 194.0123554711203
+Epoch: 19, Average loss 194.64060766720078
+Epoch: 20, Average loss 193.21532373520935
+==============After low rank truncation=================
+Params: 3.39 M => 3.39 M
+MACs: 0.03 G => 0.03 G
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 177.242097947204
+Epoch: 2, Average loss 176.64838372387933
+Epoch: 3, Average loss 176.62282265968693
+Epoch: 4, Average loss 176.88418801316936
+Epoch: 5, Average loss 176.70816995565173
+Epoch: 6, Average loss 175.27656607026034
+Epoch: 7, Average loss 176.06970170400675
+Epoch: 8, Average loss 174.94226829751025
+Epoch: 9, Average loss 174.70171482123217
+Epoch: 10, Average loss 174.9142620494065
+PyTorchFXModel(
+  (_model): CoLESModule(
+    (_loss): ContrastiveLoss()
+    (_seq_encoder): RnnSeqEncoder(
+      (trx_encoder): TrxEncoder(
+        (embeddings): ModuleDict(
+          (mcc_code): DecomposedEmbedding(200, 48)
+          (tr_type): DecomposedEmbedding(100, 24)
+        )
+        (custom_embeddings): ModuleDict(
+          (amount): IdentityScaler()
+        )
+        (custom_embedding_batch_norm): RBatchNorm(
+          (bn): BatchNorm1d(1, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (seq_encoder): RnnEncoder(
+        (rnn): GRU(73, 1024, batch_first=True)
+        (reducer): LastStepEncoder()
+      )
+    )
+    (_validation_metric): BatchRecallTopK()
+    (_head): Head(
+      (model): Sequential(
+        (0): L2NormEncoder()
+      )
+    )
+  )
+)

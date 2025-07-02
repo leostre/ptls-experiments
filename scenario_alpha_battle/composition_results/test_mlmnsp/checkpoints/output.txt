@@ -1,0 +1,134 @@
+
+FC TRAIN
+
+
+FC TRAIN
+
+[2024-11-01 20:29:44,890][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 1136234 records
+[2024-11-01 20:32:18,835][ptls.data_load.datasets.memory_dataset][INFO] - Loaded 1136234 records
+[2024-11-01 20:58:04,765][FedCoreAPI][INFO] - Initialising FedCore Repository
+[2024-11-01 20:58:04,973][FedCoreAPI][INFO] - Initialising solver
+[2024-11-01 20:58:04,973][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to <bound method MLMNSPModule.loss of MLMNSPModule(
+  (trx_encoder): TrxEncoder(
+    (embeddings): ModuleDict(
+      (currency): NoisyEmbedding(
+        13, 4, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (operation_kind): NoisyEmbedding(
+        9, 4, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (operation_type): NoisyEmbedding(
+        24, 8, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (operation_type_group): NoisyEmbedding(
+        6, 32, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (ecommerce_flag): NoisyEmbedding(
+        5, 2, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (payment_system): NoisyEmbedding(
+        9, 4, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (income_flag): NoisyEmbedding(
+        5, 2, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (mcc): NoisyEmbedding(
+        110, 48, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (mcc_category): NoisyEmbedding(
+        30, 24, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (day_of_week): NoisyEmbedding(
+        9, 2, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (hour): NoisyEmbedding(
+        25, 4, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+      (weekofyear): NoisyEmbedding(
+        55, 4, padding_idx=0
+        (dropout): Dropout2d(p=0, inplace=False)
+      )
+    )
+    (custom_embeddings): ModuleDict(
+      (amnt): IdentityScaler()
+      (hour_diff): LogScaler()
+    )
+    (custom_embedding_batch_norm): RBatchNorm(
+      (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (linear_projection_head): Linear(in_features=140, out_features=128, bias=True)
+  )
+  (_seq_encoder): LongformerEncoder(
+    (transf): LongformerModel(
+      (embeddings): LongformerEmbeddings(
+        (word_embeddings): Embedding(4, 128, padding_idx=1)
+        (token_type_embeddings): Embedding(2, 128)
+        (LayerNorm): LayerNorm((128,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (position_embeddings): Embedding(2000, 128, padding_idx=1)
+      )
+      (encoder): LongformerEncoder(
+        (layer): ModuleList(
+          (0-1): 2 x LongformerLayer(
+            (attention): LongformerAttention(
+              (self): LongformerSelfAttention(
+                (query): Linear(in_features=128, out_features=128, bias=True)
+                (key): Linear(in_features=128, out_features=128, bias=True)
+                (value): Linear(in_features=128, out_features=128, bias=True)
+                (query_global): Linear(in_features=128, out_features=128, bias=True)
+                (key_global): Linear(in_features=128, out_features=128, bias=True)
+                (value_global): Linear(in_features=128, out_features=128, bias=True)
+              )
+              (output): LongformerSelfOutput(
+                (dense): Linear(in_features=128, out_features=128, bias=True)
+                (LayerNorm): LayerNorm((128,), eps=1e-12, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): LongformerIntermediate(
+              (dense): Linear(in_features=128, out_features=2048, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): LongformerOutput(
+              (dense): Linear(in_features=2048, out_features=128, bias=True)
+              (LayerNorm): LayerNorm((128,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+    )
+  )
+  (nsp_head): SequencePredictionHead(
+    (head): Sequential(
+      (0): Linear(in_features=128, out_features=64, bias=True)
+      (1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU()
+      (3): Dropout(p=0.1, inplace=False)
+      (4): Linear(in_features=64, out_features=1, bias=True)
+      (5): Sigmoid()
+    )
+  )
+  (fn_norm_predict): PBShell()
+  (loss_mlm): QuerySoftmaxLoss()
+  (loss_nsp): BCELoss()
+  (train_mlm_loss): MeanMetric()
+  (valid_mlm_loss): MeanMetric()
+  (train_nsp_loss): MeanMetric()
+  (valid_nsp_loss): MeanMetric()
+)>
+
+FC TRAIN
+

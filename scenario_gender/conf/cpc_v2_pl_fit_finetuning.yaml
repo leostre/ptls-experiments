@@ -60,10 +60,12 @@ pl_module:
   metric_list:
     auroc:
       _target_: torchmetrics.AUROC
+      task: binary
       num_classes: 2
 
     accuracy:
       _target_: torchmetrics.Accuracy
+      task: binary
 
   pretrained_lr: 0.0001
   head:

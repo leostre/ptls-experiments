@@ -1,3 +1,5 @@
+export PYTORCH_CUDA_ALLOC_CONF=""
+PYTORCH_CUDA_ALLOC_CONF=""
 # start with working directory: scenario_age_pred
 # dataset should be prepared before this script
 echo "==== Folds split"

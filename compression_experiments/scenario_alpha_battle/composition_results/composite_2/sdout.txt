@@ -1,0 +1,150 @@
+[2024-10-10 18:09:22,761][FedCoreAPI][INFO] - Initialising Industrial Repository
+[2024-10-10 18:09:23,309][FedCoreAPI][INFO] - Initialising solver
+[2024-10-10 18:09:23,309][FedCoreAPI][INFO] - Initialising experiment setup
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 758.6635877415092
+Epoch: 2, Average loss 361.8007834428799
+Epoch: 3, Average loss 345.42370575012086
+Epoch: 4, Average loss 328.7803446451823
+Epoch: 5, Average loss 330.9979936367499
+Epoch: 6, Average loss 325.1061062079942
+Epoch: 7, Average loss 324.08548040637476
+Epoch: 8, Average loss 318.49142717982005
+Epoch: 9, Average loss 316.51055262521834
+Epoch: 10, Average loss 314.66796424241363
+Epoch: 11, Average loss 318.9227760299713
+Epoch: 12, Average loss 313.3075323352319
+Epoch: 13, Average loss 314.2587148700646
+Epoch: 14, Average loss 311.5034336234757
+Epoch: 15, Average loss 314.42006483858455
+Epoch: 16, Average loss 310.67822417908326
+Epoch: 17, Average loss 312.83675008381675
+Epoch: 18, Average loss 306.6609127326402
+Epoch: 19, Average loss 303.0646794180194
+Epoch: 20, Average loss 307.9149676720777
+Epoch: 21, Average loss 304.1079838004655
+Epoch: 22, Average loss 309.1572827245899
+Epoch: 23, Average loss 311.017979361102
+Epoch: 24, Average loss 305.3075867308352
+Epoch: 25, Average loss 308.5847521875195
+Epoch: 26, Average loss 307.84223350174653
+Epoch: 27, Average loss 309.4133379968578
+Epoch: 28, Average loss 306.9767470064753
+Epoch: 29, Average loss 304.0724412381292
+Epoch: 30, Average loss 303.5642168421945
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 304.7661460526213, orthogonal_loss: 6636.276367, hoer_loss: 0.404314, metric_loss: 301.838745
+Epoch: 2, Average loss 304.1577765489529, orthogonal_loss: 6625.129395, hoer_loss: 0.385403, metric_loss: 290.707214
+Epoch: 3, Average loss 298.19344581101467, orthogonal_loss: 6634.960938, hoer_loss: 0.367420, metric_loss: 300.549225
+Epoch: 4, Average loss 300.7742141449523, orthogonal_loss: 6625.582520, hoer_loss: 0.350973, metric_loss: 291.185364
+Epoch: 5, Average loss 306.2291968187648, orthogonal_loss: 6643.705566, hoer_loss: 0.334304, metric_loss: 309.322815
+Epoch: 6, Average loss 299.6890284068094, orthogonal_loss: 6641.701172, hoer_loss: 0.320780, metric_loss: 307.326141
+Epoch: 7, Average loss 299.445165577049, orthogonal_loss: 6636.588867, hoer_loss: 0.310480, metric_loss: 302.222870
+Epoch: 8, Average loss 297.59281571135074, orthogonal_loss: 6652.481934, hoer_loss: 0.304115, metric_loss: 318.121552
+Epoch: 9, Average loss 298.502294666039, orthogonal_loss: 6626.837891, hoer_loss: 0.299186, metric_loss: 292.480194
+Epoch: 10, Average loss 302.17206638968156, orthogonal_loss: 6622.730469, hoer_loss: 0.293800, metric_loss: 288.375183
+==============Truncate rank for each weight matrix=================
+After rank pruning left only 0.0 % of currency layer params
+After rank pruning left only 0.0 % of operation_kind layer params
+After rank pruning left only 0.0 % of operation_type layer params
+After rank pruning left only 0.0 % of operation_type_group layer params
+After rank pruning left only 0.0 % of ecommerce_flag layer params
+After rank pruning left only 0.0 % of payment_system layer params
+After rank pruning left only 0.0 % of income_flag layer params
+After rank pruning left only 0.0 % of mcc layer params
+After rank pruning left only 0.0 % of mcc_category layer params
+After rank pruning left only 0.0 % of day_of_week layer params
+After rank pruning left only 0.0 % of hour layer params
+After rank pruning left only 0.0 % of weekofyear layer params
+==============Finetune truncated model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 1483.5360472292718
+Epoch: 2, Average loss 419.4949613712029
+Epoch: 3, Average loss 380.82531269248614
+Epoch: 4, Average loss 376.09785683759435
+Epoch: 5, Average loss 367.39211134615533
+Epoch: 6, Average loss 357.89483289280815
+Epoch: 7, Average loss 354.415071590218
+Epoch: 8, Average loss 354.4286537398835
+Epoch: 9, Average loss 357.02683250442476
+Epoch: 10, Average loss 349.48084476798357
+==============After low rank truncation=================
+Params: 0.29 M => 0.29 M
+MACs: 0.00 G => 0.00 G
+==============Prepare original model for pruning=================
+==============Initialisation of pruning agent=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 304.9281663114201
+Epoch: 2, Average loss 298.94493404548325
+Epoch: 3, Average loss 294.8351413627822
+Epoch: 4, Average loss 302.47787426855274
+Epoch: 5, Average loss 298.11050006919754
+Epoch: 6, Average loss 296.57895859891545
+Epoch: 7, Average loss 295.9710820668234
+Epoch: 8, Average loss 302.68836265457367
+Epoch: 9, Average loss 298.21849724013884
+Epoch: 10, Average loss 297.23126427808444
+Epoch: 11, Average loss 296.81638005726825
+Epoch: 12, Average loss 298.4580957104346
+Epoch: 13, Average loss 295.971766549908
+Epoch: 14, Average loss 295.97459841060066
+Epoch: 15, Average loss 296.3124431069502
+Epoch: 16, Average loss 302.4807629613819
+Epoch: 17, Average loss 296.39541857447216
+Epoch: 18, Average loss 297.6167544062266
+Epoch: 19, Average loss 297.01688225112275
+Epoch: 20, Average loss 302.43454552077486
+==============Finetune pruned model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 294.3668295732753
+Epoch: 2, Average loss 293.87844075033524
+Epoch: 3, Average loss 292.2375254374064
+Epoch: 4, Average loss 292.4175171385744
+Epoch: 5, Average loss 296.62377588572855
+Epoch: 6, Average loss 297.6690742051054
+Epoch: 7, Average loss 297.9475290751505
+Epoch: 8, Average loss 291.7925154330012
+Epoch: 9, Average loss 297.0169733165505
+Epoch: 10, Average loss 292.28430900649875
+==============After pruning=================
+Params: 0.29 M => 0.29 M
+MACs: 0.00 G => 0.00 G
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 295.3113059769134, orthogonal_loss: 2872.785400, hoer_loss: 0.289094, metric_loss: 313.895264
+Epoch: 2, Average loss 298.219488695948, orthogonal_loss: 1689.382812, hoer_loss: 0.284501, metric_loss: 303.521301
+Epoch: 3, Average loss 294.37653745243887, orthogonal_loss: 1094.865479, hoer_loss: 0.279937, metric_loss: 286.477295
+Epoch: 4, Average loss 296.79723432773125, orthogonal_loss: 806.151245, hoer_loss: 0.275535, metric_loss: 312.311646
+Epoch: 5, Average loss 299.4049169117819, orthogonal_loss: 627.913818, hoer_loss: 0.271323, metric_loss: 317.043396
+Epoch: 6, Average loss 294.78457897437545, orthogonal_loss: 478.623260, hoer_loss: 0.267337, metric_loss: 278.978638
+Epoch: 7, Average loss 298.41795839473394, orthogonal_loss: 406.038696, hoer_loss: 0.264084, metric_loss: 276.186584
+Epoch: 8, Average loss 295.1361468956618, orthogonal_loss: 372.008057, hoer_loss: 0.261135, metric_loss: 286.848938
+Epoch: 9, Average loss 293.93073265090914, orthogonal_loss: 363.933380, hoer_loss: 0.258366, metric_loss: 307.818420
+Epoch: 10, Average loss 295.5937525583598, orthogonal_loss: 304.469177, hoer_loss: 0.255798, metric_loss: 267.374512
+==============Truncate rank for each weight matrix=================
+After rank pruning left only 0.0 % of currency layer params
+After rank pruning left only 0.0 % of operation_kind layer params
+After rank pruning left only 0.0 % of operation_type layer params
+After rank pruning left only 0.0 % of operation_type_group layer params
+After rank pruning left only 0.0 % of ecommerce_flag layer params
+After rank pruning left only 0.0 % of payment_system layer params
+After rank pruning left only 0.0 % of income_flag layer params
+After rank pruning left only 0.0 % of mcc layer params
+After rank pruning left only 0.0 % of mcc_category layer params
+After rank pruning left only 0.0 % of day_of_week layer params
+After rank pruning left only 0.0 % of hour layer params
+After rank pruning left only 0.0 % of weekofyear layer params
+==============Finetune truncated model=================
+Forcely substituted loss to ContrastiveLoss()
+Epoch: 1, Average loss 9437.137496491392
+Epoch: 2, Average loss 5826.872511812313
+Epoch: 3, Average loss 8894.429866828843
+Epoch: 4, Average loss 5611.680099761415
+Epoch: 5, Average loss 3798.5570085415106
+Epoch: 6, Average loss 2933.6706772002867
+Epoch: 7, Average loss 2497.2386598872567
+Epoch: 8, Average loss 2089.6528607823416
+Epoch: 9, Average loss 1770.340987215023
+Epoch: 10, Average loss 1653.9324210465786
+==============After low rank truncation=================
+Params: 0.29 M => 0.29 M
+MACs: 0.00 G => 0.00 G
